@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" type="text/css" href="cssARPRO.css">
+    
+</head>
+<body>
+    <script src="funciones-cv.js"></script>
+   <header class="header">
+    <h1>Curriculum Vitae</h1> 
+    <img src="https://randomuser.me/api/portraits/men/49.jpg">
+  
+   </header>
+
+   <nav>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#contacto">Te contacto</a>
+    
+
+</nav>
+
+    <section class="flex-container">
+        <!--
+            En el proyecto original se había realizado con 3 cajas. Luego fui modificando
+            dejando únicamente dos (la caja 2 y 3)
+
+        -->
+
+        <div class="caja c2">
+            <aside>
+                <img src="https://cdn-icons-png.flaticon.com/512/9503/9503246.png"> <h2>Peter Parker</h2>
+            </aside>
+            <aside>
+                <img src="https://cdn-icons-png.flaticon.com/512/5670/5670747.png"> <h2>28 años</h2>
+            </aside>
+            <aside>
+                <img src="https://cdn-icons-png.flaticon.com/512/9633/9633812.png"> <h3>2 hijos</h3>
+            </aside>
+            <aside>
+                <img src="https://cdn-icons-png.flaticon.com/512/4735/4735423.png"> <h3>Gral. Belgrano - Córdoba</h3>
+            </aside>
+            <aside>
+                <img src="https://cdn-icons-png.flaticon.com/512/4735/4735423.png"> <h3>Saavedra 89</h3>
+            </aside>
+            <aside>
+                <img src="https://cdn-icons-png.flaticon.com/512/5162/5162872.png"> <h2>354-304510</h2>
+            </aside>
+            <aside>
+                <img src="https://cdn-icons-png.flaticon.com/512/3178/3178158.png"> <h3>peterparker@spider.man</h3>
+            </aside>
+           
+            
+            
+        </div>
+
+
+        <div class="caja c3">
+
+            <section class="habilidades">
+                <h2 id="habilidades">Habilidades</h2>
+            <ul>
+           <li>Aprendizaje rápido</li>
+           <li>Experiencia en trabajos de equipo y lider de grupo</li>
+           <li>Manejo y uso de herramientas informáticas</li>
+           <li>Proactivo</li>
+           <li>omnivalente</li>
+           <li>Aprendizaje rápido</li>
+
+            </ul>
+                
+            </section>
+
+            <section class="experiencia">
+                 <h2 id="experiencia">Experiencia</h2>
+             <ul>
+            <li>Indumentaria Deportiva "InduShop" S.R.L. Encargado de stock. De enero del 2010 a diciembre del 2010.</li>
+            <li>Mayorista "Loco Juan" S.R.L. Encargado de depósito. De enero del 2011 a diciembre del 2015.</li>
+            <li>Ferretería "Te clavo la Sombrilla" Personal de ventas. De enero del 2016 a diciembre del 2018.</li>
+            <li>Casa de electrónica "Emanual" Encargado de sistemas. De enero del 2019 a diciembre del 2020.</li>
+            <li>Veterinaria "Camaleón". Encargado de sistemas de gestión y auditoría. De enero del 2021 a diciembre del 2022.</li>
+            
+             </ul>
+               
+            </section>
+        </div>
+        
+    
+    </section>
+
+    <section class="flex-form">
+        
+        <div class="textform">
+        <h2 id="contacto"> Dudas?</h2>
+        <h3>Escribime y me pondré en contacto en cuanto sea posible</h3>
+        
+        
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            
+            <input type="submit" value="Enviar" onclick="enviarFormulario();">
+          </form>
+
+          
+        </div>
+
+       
+
+    </section>
+
+   
+
+    <footer>
+        Proyecto Final - Primeros pasos del desarrollo frontend - Argentina Programa 4.0. - Realizado por Jofré Matías
+     </footer>
+
+
+</body>
+</html>
+
+
